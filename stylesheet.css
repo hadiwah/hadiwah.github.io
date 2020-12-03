@@ -142,15 +142,14 @@ header {
   font-weight: normal;
 }
 
-/*.lesson {
-  float: left;
+.lesson {
+  /*float: left;*/
   width: 25%;
-}*/
+  flex:auto;
+}
 .lessons{
   display:flex;
-}
-.lessons div{
-  flex:auto;
+  flex-wrap:wrap;
 }
 
 .lesson-icon {
