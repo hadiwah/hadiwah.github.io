@@ -142,9 +142,15 @@ header {
   font-weight: normal;
 }
 
-.lesson {
+/*.lesson {
   float: left;
   width: 25%;
+}*/
+.lessons{
+  display:flex;
+}
+.lessons div{
+  flex:auto;
 }
 
 .lesson-icon {
