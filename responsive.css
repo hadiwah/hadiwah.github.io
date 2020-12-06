@@ -18,21 +18,6 @@
     display: none;
   }
   
-  ul.menu.responsive {position: relative;}
-  ul.menu.responsive li.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  ul.menu.responsive li {
-    float: none;
-    display: inline;
-  }
-  ul.menu.responsive li a {
-    display: block;
-    text-align: left;
-  }
-  
   .menu-icon {
     display: block;
   }
